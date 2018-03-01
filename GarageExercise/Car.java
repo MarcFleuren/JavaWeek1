@@ -6,8 +6,8 @@ class Car extends Vehicle{
 	public int numberOfWindows;
 	
 	
-	public Car(Garage g, int weight, String colour, int topSpeedKMPH, int price,int numberOfDoors, int numberOfWipers, int numberOfWindows) {
-		super(g, weight,colour,topSpeedKMPH,price);
+	public Car(int weight, String colour, int topSpeedKMPH, int price,int numberOfDoors, int numberOfWipers, int numberOfWindows) {
+		super( weight,colour,topSpeedKMPH,price);
 		this.numberOfDoors = numberOfDoors;
 		this.numberOfWindows = numberOfWindows;
 		this.numberOfWipers = numberOfWipers;

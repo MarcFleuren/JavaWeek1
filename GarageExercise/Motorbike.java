@@ -4,8 +4,8 @@ class Motorbike extends Vehicle{
 	public int Ccs;
 	public Boolean hasRoof;
 	
-	public Motorbike(Garage g, int weight, String colour, int topSpeedKMPH, int price, boolean hasBox, int Ccs, boolean hasRoof) {
-		super(g, weight,colour,topSpeedKMPH,price);
+	public Motorbike(int weight, String colour, int topSpeedKMPH, int price, boolean hasBox, int Ccs, boolean hasRoof) {
+		super(weight,colour,topSpeedKMPH,price);
 		this.hasBox = hasBox;
 		this.Ccs = Ccs;
 		this.hasRoof = hasRoof;
