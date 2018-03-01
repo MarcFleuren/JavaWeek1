@@ -1,13 +1,13 @@
 
-class Car extends Garage{
+class Car extends Vehicle{
 	
 	public int numberOfDoors;
 	public int numberOfWipers;
 	public int numberOfWindows;
 	
 	
-	public Car(int weight, String colour, int topSpeedKMPH, int price,int numberOfDoors, int numberOfWipers, int numberOfWindows) {
-		super();
+	public Car(Garage g, int weight, String colour, int topSpeedKMPH, int price,int numberOfDoors, int numberOfWipers, int numberOfWindows) {
+		super(g, weight,colour,topSpeedKMPH,price);
 		this.numberOfDoors = numberOfDoors;
 		this.numberOfWindows = numberOfWindows;
 		this.numberOfWipers = numberOfWipers;

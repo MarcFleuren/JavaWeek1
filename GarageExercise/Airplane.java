@@ -3,8 +3,8 @@ class Airplane extends Vehicle{
 	public Boolean hasJetEngine;
 	public int maxAltitude;
 	
-	public Airplane(int weight, String colour, int topSpeedKMPH, int price, int wingSpan, Boolean hasJetEngine, int maxAltitude) {
-		super(weight,colour,topSpeedKMPH,price);
+	public Airplane(Garage g,int weight, String colour, int topSpeedKMPH, int price, int wingSpan, Boolean hasJetEngine, int maxAltitude) {
+		super(g,weight,colour,topSpeedKMPH,price);
 		this.wingSpan = wingSpan;
 		this.hasJetEngine = hasJetEngine;
 		this.maxAltitude = maxAltitude;
