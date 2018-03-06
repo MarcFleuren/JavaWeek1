@@ -1,5 +1,6 @@
+package main;
 
-class Car extends Vehicle{
+public class Car extends Vehicle{
 	
 	public int numberOfDoors;
 	public int numberOfWipers;

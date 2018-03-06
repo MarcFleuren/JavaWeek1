@@ -1,3 +1,4 @@
+package main;
 class Airplane extends Vehicle{
 	public int wingSpan;
 	public Boolean hasJetEngine;

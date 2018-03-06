@@ -1,3 +1,4 @@
+package main;
 import java.util.ArrayList;
 import java.util.Iterator;
 
@@ -53,13 +54,15 @@ public class Garage {
 		}
 	}
 
-	public void displayGarage() {
+	public String displayGarage() {
 		for (Vehicle v : garageInventory) {
 
-			System.out.println(v.getClass().getCanonicalName() + " £"
-					+ v.calculateMaintenanceBill(v.weight, v.price, v.getClass().getCanonicalName()) + " "
-					+ "annually");
+//			System.out.println(v.getClass().getCanonicalName() + " £"
+//					+ v.calculateMaintenanceBill(v.weight, v.price, v.getClass().getCanonicalName()) + " "
+//					+ "annually");
+			return "hello";
 		}
+		return "";
 	}
 
 	public void emptyGarage() {

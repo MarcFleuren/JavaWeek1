@@ -1,3 +1,4 @@
+package main;
 public abstract class Vehicle{
 	public String type;
 	public int weight;

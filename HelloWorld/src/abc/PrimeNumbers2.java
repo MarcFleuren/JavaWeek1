@@ -1,3 +1,4 @@
+package abc;
 
 public class PrimeNumbers2 {
 

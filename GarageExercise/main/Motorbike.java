@@ -1,3 +1,4 @@
+package main;
 class Motorbike extends Vehicle{
 	
 	public Boolean hasBox;
